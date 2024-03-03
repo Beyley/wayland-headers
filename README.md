@@ -9,6 +9,10 @@ This is a Zig package which provides various Wayland headers needed to develop a
 * relative-pointer-unstable-v1
 * idle-inhibit-unstable-v1
 
+It also provides the following headers for use by [mach-core](https://github.com/hexops/mach-core):
+
+* tearing-control-staging-v1
+
 As well as non-generated headers (see the `include/` directory.)
 
 ## Updating

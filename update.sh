@@ -59,6 +59,9 @@ generate_glfw _protocols/unstable/relative-pointer/relative-pointer-unstable-v1.
 generate_glfw _protocols/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml pointer-constraints-unstable-v1
 generate_glfw _protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml idle-inhibit-unstable-v1
 
+# used by mach-core
+generate_glfw _protocols/staging/tearing-control/tearing-control-v1.xml tearing-control-staging-v1
+
 # for the main protocol the header has already been generated, so we only need the code
 wayland-scanner private-code _wayland/protocol/wayland.xml wayland-generated/wayland-client-protocol-code.h
 
